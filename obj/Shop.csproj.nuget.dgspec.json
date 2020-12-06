@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Shop\\Shop.csproj": {}
+    "C:\\DEv\\Shop\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Shop\\Shop.csproj": {
+    "C:\\DEv\\Shop\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\DEv\\Shop\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Dev\\Shop\\Shop.csproj",
+        "projectPath": "C:\\DEv\\Shop\\Shop.csproj",
         "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Shop\\obj\\",
+        "outputPath": "C:\\DEv\\Shop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -58,6 +55,10 @@
               ]
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"
             },
